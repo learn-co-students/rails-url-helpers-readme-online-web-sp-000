@@ -1,3 +1,6 @@
 <% @posts.each do |post| %>
-  <div><%= post.title %></div>
+  <div><%= link_to post.title, post_path(post) %></div>                                 <!-- Max refactor -->
+  <!-- <div><%= link_to post.title, post_path(post.id) %></div>  -->                    <!-- Multiple Helpers -->
+  <!-- <div><%= link_to post.title, "/posts/#{post.id}" %></div> -->                    <!-- Refactored to use Helper -->
+  <!-- <div><a href='<%= "/posts/#{post.id}" %>'><%= post.title %></a></div> -->        <!-- Longer style -->
 <% end %>
