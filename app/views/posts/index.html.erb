@@ -1,3 +1,22 @@
+<!--original index in code-along -->
+<!--
 <% @posts.each do |post| %>
-  <div><%= post.title %></div>
+  <div><a href='<%= "/posts/#{post.id}" %>'><%= post.title %></a></div>
+<% end %> -->
+
+<!-- then changed to this to utilize link_to, clean up and modernize code -->
+<!-- link to automatically creates an html a tag, even if inspecting in google -->
+<!--<% @posts.each do |post| %>
+  <div><%= link_to post.title, "/posts/#{post.id}" %></div>
+<% end %> -->
+
+<!-- then refactored to utilize post_path and get rid of string interpolation -->
+<!-- <% @posts.each do |post| %>
+  <div><%= link_to post.title, post_path(post.id) %></div>
+<% end %> -->
+
+<!-- then to change one last item, passing post in for post_path() -->
+<% @posts.each do |post| %>
+  <div><%= link_to post.title, post_path(post) %></div>
 <% end %>
+
