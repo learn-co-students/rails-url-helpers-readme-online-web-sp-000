@@ -1,5 +1,6 @@
 <% @posts.all.each do |post| %>
   <div>
-    <%= link_to post.title, "/posts/#{post.id}" %>
+    <!-- hardcoded path <%= link_to post.title, "/posts/#{post.id}" %> -->
+    <%= link_to post.title, post_path(post.id) %>
   </div>
 <% end %>
