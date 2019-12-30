@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a5fb842-f7c5-4bec-b393-744e6ee3c817" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.generators" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/rails-url-helpers-readme-online-web-sp-000.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/test.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db/test.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Rails.Development: rails-url-helpers-readme-online-web-sp-000">
     <configuration name="Development: rails-url-helpers-readme-online-web-sp-000" type="RailsRunConfigurationType" factoryName="Rails">
@@ -157,7 +155,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577505914065</updated>
-      <workItem from="1577505919402" duration="351000" />
+      <workItem from="1577505919402" duration="523000" />
+      <workItem from="1577580766953" duration="889000" />
+      <workItem from="1577724510948" duration="1146000" />
     </task>
     <servers />
   </component>
@@ -172,6 +172,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="383" y="198" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577506007610" />
+    <state x="277" y="287" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577581646944">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="277" y="287" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1577581646944" />
     <state width="1354" height="260" key="GridCell.Tab.0.bottom" timestamp="1577506311399">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -188,5 +192,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1354" height="260" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577506311398" />
+    <state x="1018" y="27" width="885" height="1015" key="dock-window-1" timestamp="1577730862989">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1018" y="27" width="885" height="1015" key="dock-window-1/67.27.1853.1053@67.27.1853.1053" timestamp="1577730862989" />
   </component>
 </project>
