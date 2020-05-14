@@ -1,0 +1,6 @@
+<% @posts.each do |post| %>
+    # <div><a href="/posts/<%= post.id %>"><%= post.title %></a></div>  #Original Hard-Coding
+    # <div><%= link_to post.title, "/posts/#{post.id}" %></div>         #Refactored with link_to method
+    # <div><%= link_to post.title, post_path(post.id) %></div>          #Refactored with post_path
+    <div><%= link_to post.title, post_path(post) %></div>               #Refactored with post instance
+<% end %>
