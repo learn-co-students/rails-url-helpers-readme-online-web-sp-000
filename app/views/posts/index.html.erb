@@ -1,0 +1,4 @@
+<% @posts.each do |post| %>
+    <div><%= link_to post.title, post_path(post) %></div>
+    <!-- argument for _path is any variables in post path, (id); smart enough to take id from instance of Post object -->
+<% end %>
