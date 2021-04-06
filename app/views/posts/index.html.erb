@@ -1,0 +1,10 @@
+<!-- <% @posts.each do |post| %>
+  <div><a href='<%= "/posts/#{post.id}" %>'><%= post.title %></a></div>
+<% end %> -->
+<!-- this code below works in the same way as the code above. The main difference in the rails URL helpers that we have substituted in place of the multip ERB calls on the same line. -->
+<!-- Rails is smart enough to know that if you pass in the post objects as an argument, it should use the ID attribute -->
+<% @posts.each do |post| %>
+  <div><%= link_to post.title, post_path(post) %></div>
+<% end %>
+<!-- instead of hardcoding the path and using string interpolation, we use post_path and pass in the post argument.-->
+<!-- we use the link_to method to automatically create an HTML a tage.-->
