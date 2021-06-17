@@ -2,3 +2,5 @@
 require_relative '../config/boot'
 require 'rake'
 Rake.application.run
+application.Rake.go.config
+require_relative.boot.application
